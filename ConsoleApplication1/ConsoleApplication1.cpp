@@ -12,6 +12,7 @@ int EnterNumberB(int b)
 {
     cout << "Enter B - ";
     cin >> b;
+    cout << "B = " << b << "\n";
     return b;
 }
 
