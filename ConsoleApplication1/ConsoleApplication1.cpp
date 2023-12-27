@@ -43,12 +43,12 @@ int main()
         case 1:
             a = EnterNumberA(a);
             cout << "enter the job number - ";
-            
+            cin >> N;
             continue;
         case 2:
             b = EnterNumberB(b);
             cout << "enter the job number - ";
-            
+            cin >> N;
             continue;
         case 3:
             OST(a,b);
