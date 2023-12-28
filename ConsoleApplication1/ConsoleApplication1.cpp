@@ -34,11 +34,11 @@ void DEL(int a, int b)
 
 int main()
 {
-    cout << "Press 1 to enter A ";
-    cout << "Press 2 to enter B ";
-    cout << "Press 3 to have A%B ";
-    cout << "Press 4 to have B/A ";
-    cout << "Press 0 for end ";
+    cout << "Press 1 to enter A " << endl;
+    cout << "Press 2 to enter B " << endl;
+    cout << "Press 3 to have A%B " << endl;
+    cout << "Press 4 to have B/A " << endl;
+    cout << "Press 0 for end " << endl;
     int N, a = 0, b = 0, c = 0;
     cin >> N;
 
@@ -57,10 +57,10 @@ int main()
             cin >> N;
             continue;
         case 3:
-            OST(a,b);
+            OST(a, b);
             continue;
         case 4:
-            DEL(a,b);
+            DEL(a, b);
             continue;
         default:
             cout << "Programm is finished";
